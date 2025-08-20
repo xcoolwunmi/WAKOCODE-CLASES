@@ -1,0 +1,20 @@
+.navbar {
+    font-family: cursive;
+    font-size:  20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    display:inline
+}
+
+.navlist{
+    margin-left: 20px;
+    margin-right: 20px;
+}
