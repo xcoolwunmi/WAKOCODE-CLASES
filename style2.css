@@ -1,0 +1,60 @@
+/* task 1.1 */
+.container {
+    width: 500px;
+    height: 300px;
+    background-color: lightgray;
+    padding: 20px;
+    border: 20px solid rgb(202, 24, 24)
+        /* task 2.2 */
+}
+
+/* task 1.2 */
+.content {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: 50px;
+    /* task 2.1 */
+    padding: 10px;
+    /* task 3.1 */
+    overflow: scroll;
+    /* task 3.2 */
+}
+
+/* Task 4: Positioning Practice */
+.absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: px;
+    background-color: lightblue;
+    border: 1px dashed blue;
+}
+
+/* 4.2 Relative Positioning: */
+.relative {
+    position: relative;
+    top: 50px;
+    left: 150px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(230, 201, 173);
+    border: 1px dashed rgb(180, 96, 40);
+}
+/* 5.1 Float Elements */
+ .float-left {
+      float: left;
+      width: 100px;
+      height: 50px;
+      background-color: pink;
+      margin-right: 10px;
+    }
+
+    .float-right {
+      float: right;
+      width: 100px;
+      height: 50px;
+      background-color: orange;
+      margin-left: 10px;
+    }
