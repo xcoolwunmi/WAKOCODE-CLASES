@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<div class="container">
+    <div class="logo">
+        <img src="https://www.florencecourt.sch.ng/wp-content/uploads/2022/11/FCIS-logo-Small.png"
+            alt="FCIS-logo-Small">
+    </div>
+    <h1>Sign Up</h1>
+
+    <form action="" method="get">
+        <div class="label-container">
+            <label for="fname">First Name:</label> <br>
+            <input type="text" placeholder="Enter your firstname" id="fname" required>
+
+            <label for="lname" class="last">Last Name:</label> <br>
+            <input type="text" placeholder="Enter your Lastname" id="lname">
+        </div>
+         <br>
+        <div class="email-wrapper">
+            <label for="email">Email</label>
+            <input type="email" placeholder="enter your email" id="email">
+        </div>
+        <br>
+        <div class="phone-number">
+            <label for="phone">Phone</label>
+            <input type="tel" placeholder="enter your phone number" id="phone">
+        </div>
+        <br>
+
+        <div class="password">
+            <label for="password">Password</label>
+            <input type="password" placeholder="enter your password" id="Password">
+        </div>
+
+        <br>
+        <div class="gender">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <label for="age"> Are you 18 or above?</label>
+        <input type="checkbox" name="" id="age">
+
+        <br>
+        <button class="Submit">Submit</button>
+    </form>
+</div>
+
+<body>
+
+</body>
+
+</html>
