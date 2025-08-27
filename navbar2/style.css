@@ -1,0 +1,99 @@
+body {
+  font-family: "Epilogue";
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+}
+.logo-nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 50px;
+  font-size: 11px;
+}
+
+
+
+h1 {
+  font-size: 30px;
+  font-weight: 100px;
+}
+a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: black;
+}
+
+.login {
+  border:none;
+  background-color:white;
+  font-family:Epilogue;
+  font-size: 11px;
+ margin-right:5px;
+}
+
+.register {
+  
+  background-color:white;
+  font-family:Epilogue;
+  font-size: 11px;
+ margin-right:5px;
+ padding: 5px 15px;
+ border-radius: 10px;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.left-section {
+  width: 50%;
+  padding-left: 130px;
+ 
+
+.right-section {
+  width: 50%;
+}
+
+.txt {
+  font-size: 70px;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+  width: 50%;
+
+}
+.paragraph {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  background-color: black;
+  color: white;
+  width: 100px;
+  font-family: Epilogue;
+  font-size: 10px;
+  padding: 7px 10px;
+  border-radius:6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+ 
+}
+.sponsors{
+  margin-top: 390px;
+}
+
+.sponsors img {
+margin-left: 40px;
+}
