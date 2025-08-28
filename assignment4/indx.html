@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <nav class="navigation">
+        <div class="logo">
+          <h1>smile</h1>
+        </div>
+        <div class="nav-item">
+          <a href="home">Home</a>
+          <a href="admission">Admission</a>
+          <a href="gallary">Gallary</a>
+          <a href="contact-us">Contact Us</a>
+          <a href="about-us">About Us</a>
+        </div>
+        <div class="button">
+          <button class="btn1">Login</button>
+          <button class="btn2">Sign Up</button>
+        </div>
+      </nav>
+    </div>
+
+    <div class="main">
+      <div class="left-section">
+        <div class="hero1">
+          <img
+            src="https://images.unsplash.com/photo-1577896850715-ed0b7e3ece57?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="healthy-family"
+          />
+          <div class="hero-text">
+            <h2>Your well-being matters to us</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <div class="call-action">
+          <p>
+            <strong> Tell us about yourself</strong>
+        </p>
+        </div>
+        <div class="form-container">
+          <form class="f-content">
+            <label for="fname">First Name:</label>
+            <input type="text" placeholder="John" id="fname" required />
+            <br />
+            <label for="lname">Last Name:</label>
+            <input type="text" placeholder="Doe" id="lname" required />
+            <br />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              placeholder="you@example.com"
+              id="email"
+              required
+            />
+            <br />
+            <label for="gender">Gender:</label>
+
+            <input type="radio" value="male" name="gender" />Male
+            <input type="radio" value="female" name="gender" /> Female
+            <br />
+            <label for="who-are-you">Who are you?:</label>
+            <select name="options" id="who-are-you" required>
+              <option value="husband">Husband</option>
+              <option value="wife">Wife</option>
+              <option value="children">Children</option>
+            </select>
+            <br />
+            <label for="dob">Date of birth</label>
+            <input type="date" required id="dob" />
+            <label for=""></label>
+            <br />
+            <label for="tell-us">Tell us about yourself :</label>
+            <br />
+            <input type="text" required id="tell-us" class="write" />
+            <br />
+            <button class="write-submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

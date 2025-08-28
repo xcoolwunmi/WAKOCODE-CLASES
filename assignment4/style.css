@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: poppins;
+  background-image: url(https://files.123freevectors.com/wp-content/original/115903-abstract-colorful-blur-lights-background-design.jpg);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.navigation h1 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 900px;
+  color: rgb(255, 255, 255);
+}
+
+.navigation a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Poppins;
+  font-size: larger;
+  margin: 30px;
+}
+
+.btn1 {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  font-family: poppins;
+}
+
+.btn2 {
+  background-color: rgb(170, 104, 231);
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  font-family: poppins;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.hero1 img {
+  width: 900px;
+  border-radius: 20px;
+}
+
+.hero1 {
+  margin-left: 100px;
+}
+
+.hero-text {
+  color: aliceblue;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.right-section {
+  padding: 20px;
+  height: 599px;
+  width: 350px;
+  margin-right: 200px;
+}
+
+.call-action p {
+  color: rgb(253, 253, 253);
+  font-size: 25px;
+  text-align: center;
+}
+
+.call-action {
+  width: 300px;
+}
+
+.form-container {
+  border-radius: 10px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  color: rgb(170, 104, 231);
+}
+
+.f-content {
+  padding: 60px;
+}
+
+.write-submit {
+  margin-top: 10px;
+  color: aliceblue;
+  background-color: rgb(170, 104, 231);
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  font-family: poppins;
+}
