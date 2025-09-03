@@ -35,3 +35,8 @@ console.log(`I live in ${person.city}`);
 // Implement methods for updating and displaying the additional properties.
 // Create a simple HTML form in the index.html file to allow users to update the person object's properties.
 // Use JavaScript to handle form submission and update the person object accordingly.
+
+// document.getElementById("submit").onclick = function(){
+//     person = document.getElementById("email").value;
+//     console.log(person)
+// }
