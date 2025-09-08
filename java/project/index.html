@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person Object Mini Project</title>
+    <link rel="stylesheet" href="/java/project/style.css">
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="form-div">
+        <h1>Person Object Mini Project</h1>
+
+        <!-- Form to update person object -->
+        <form id="personForm">
+          <label>Name: <input type="text" id="name" required /></label
+          ><br /><br />
+          <label>Age: <input type="number" id="age" required /></label
+          ><br /><br />
+          <label>City: <input type="text" id="city" required /></label
+          ><br /><br />
+          <label>Email: <input type="email" id="email" required /></label
+          ><br /><br />
+          <label>Phone: <input type="text" id="phone" required /></label
+          ><br /><br />
+          <label
+            >Interests (comma separated):
+            <input type="text" id="interests" /></label
+          ><br /><br />
+          <button type="submit">Update Person</button>
+        </form>
+
+      </div>
+
+      <div class="display-div">
+        <h2>Person Details:</h2>
+        <pre id="personDetails"></pre>
+      </div>
+
+      <!-- Script -->
+      <script src="/java/project/index.js"></script>
+    </div>
+  </body>
+</html>
