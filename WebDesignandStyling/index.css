@@ -1,0 +1,83 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #03396e;
+  color: white;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 10px;
+  width: 50px;
+}
+
+/* Main Content Styling */
+main {
+  background-color: #fdfdfd;
+  padding: 20px;
+}
+
+/* Gradient Section */
+.gradient-section {
+  background: linear-gradient(135deg, #03396e, #101b25);
+  color: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+.gradient-section ol li {
+  background-color: white;
+  color: #073253;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.gradient-section img {
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 10%;
+  margin-top: 15px;
+}
+
+/* Unordered List Styling with Advanced Selectors */
+ul.styled-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.styled-list li:nth-child(odd) {
+  background-color: #bdc3c7;
+  color: #2c3e50;
+  padding: 10px;
+}
+
+ul.styled-list li:nth-child(even) {
+  background-color: #95a5a6;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #03396e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
