@@ -68,9 +68,5 @@
       }
     }
 
-    // Optional: add a couple example tasks
-    (function seedExamples(){
-      const seeds = ['Buy groceries', 'Prepare sermon notes', 'Practice JavaScript'];
-      seeds.forEach(s => { input.value = s; addTask(); });
-      input.value = '';
-    })();
+  
+  
