@@ -1,0 +1,76 @@
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 16px;
+      color: #111;
+      background-color: #2d8cff;
+    }
+
+    .main-container{
+        background-color: white;
+        height: 500px;
+        width: 800px;
+        padding: 50px;
+        border-radius: 20px;
+    }
+
+    h1 { margin-bottom: 6px; }
+    p.lead { margin-top: 0; color: #555; }
+
+    .input-row {
+      display:flex;
+      gap:8px;
+      margin: 16px 0 24px;
+    }
+
+    input[type="text"] {
+      flex:1;
+      padding: 10px 12px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      outline: none;
+    }
+    input[type="text"]:focus { border-color: #8aa; box-shadow: 0 0 0 3px rgba(136,170,136,0.08); }
+
+    button {
+      padding: 10px 14px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button.add { background: #2d8cff; color: white; }
+    button.delete { background: #ff6b6b; color:white; }
+    button.strike { background: #eee; }
+
+    ul#todoList {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    ul#todoList li {
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid #f0f0f0;
+      margin-bottom: 8px;
+      background: #fff;
+    }
+
+    .task-text {
+      flex:1;
+      user-select: text;
+    }
+
+    /* make struck text lighter visually as well */
+    strike { color: #888; opacity: 0.85; }
+
+    .small {
+      font-size: 13px;
+      color: #666;
+    }
