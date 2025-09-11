@@ -37,8 +37,10 @@ main {
   padding: 30px;
   margin: 20px 0;
   border-radius: 8px;
+  height: 1030px;
+  justify-items: center;
 }
-.gradient-section ol li {
+.gradient-section ul li {
   background-color: white;
   color: #073253;
   padding: 30px;
@@ -46,11 +48,53 @@ main {
   margin: 10px;
 }
 
-.gradient-section img {
-  width: 100px;
-  border: 3px solid white;
-  border-radius: 10%;
-  margin-top: 15px;
+.slideshow-container {
+  padding: 20px 20px;
+  width: 900px;
+  max-width: 800px;
+  height: 400px;
+  position: relative;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fade 12s infinite;
+}
+
+.slide:nth-child(1) {
+  background: url("https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/013d/live/173fccf0-0fe5-11f0-8db5-3f4abea6b85e.jpg");
+  animation-delay: 0s;
+}
+
+.slide:nth-child(2) {
+  background: url("https://phantom-marca.unidadeditorial.es/b0fda87d4a34645946edfcac72651fc5/resize/828/f/jpg/assets/multimedia/imagenes/2022/03/30/16486455263339.jpg");
+  animation-delay: 4s;
+}
+
+.slide:nth-child(3) {
+  background: url("https://sportsration.com/wp-content/uploads/2024/09/falconetsss.jpg");
+  animation-delay: 8s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  8% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /* Unordered List Styling with Advanced Selectors */
@@ -60,13 +104,13 @@ ul.styled-list {
 }
 
 ul.styled-list li:nth-child(odd) {
-  background-color: #bdc3c7;
+  background-color: #ffffff;
   color: #2c3e50;
   padding: 10px;
 }
 
 ul.styled-list li:nth-child(even) {
-  background-color: #95a5a6;
+  background-color: #03396e;
   color: #fff;
   padding: 10px;
 }
