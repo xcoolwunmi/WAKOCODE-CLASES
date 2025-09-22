@@ -1,0 +1,29 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2em;
+    }
+    input {
+      padding: 0.5em;
+      width: 200px;
+      margin-right: 1em;
+    }
+    button {
+      padding: 0.5em 1em;
+    }
+    .container {
+      margin-top: 2em;
+    }
+    .player-card {
+      margin-top: 1em;
+      border: 1px solid #ddd;
+      padding: 1em;
+      border-radius: 5px;
+      max-width: 300px;
+    }
+    .player-card img {
+      width: 100%;
+      max-width: 150px;
+      display: block;
+      margin-top: 0.5em;
+    }
