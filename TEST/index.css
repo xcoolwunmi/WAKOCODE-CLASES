@@ -1,7 +1,10 @@
 
     body {
-      font-family: Arial, sans-serif;
+      font-family:Poppins;
       padding: 2em;
+      background-color: red;
+      justify-items: center;
+      color: white;
     }
     input {
       padding: 0.5em;
@@ -15,6 +18,7 @@
       margin-top: 2em;
     }
     .player-card {
+    
       margin-top: 1em;
       border: 1px solid #ddd;
       padding: 1em;
@@ -22,8 +26,15 @@
       max-width: 300px;
     }
     .player-card img {
+      border-radius: 5px;
       width: 100%;
       max-width: 150px;
       display: block;
       margin-top: 0.5em;
+      justify-self: center;
+     
+    }
+
+    .player-card img:hover{
+      opacity: 0.9;
     }

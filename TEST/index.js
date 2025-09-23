@@ -79,45 +79,48 @@ const inputEl = document.querySelector("input");
         nationality: "English",
         position: "Defender",
         age: 27,
-        photo: "https://resources.premierleague.com/premierlea"
+        photo: "https://www.arsenal.com/sites/default/files/styles/player_card_large/public/images/B.WHITE_Headshot_web_xdbqzl78.png?auto=webp&itok=0gg2E5xJ"
       },
       Skelly: {
         nationality: "English",
         position: "Midfielder",
         age: 18,
-        photo: "https://www.evertonfc.co"
+        photo: "https://www.arsenal.com/sites/default/files/styles/player_card_large/public/images/LEWIS-SKELLY_Headshot_web_cewuwnp9.png?auto=webp&itok=DOWJw2Zk"
       },
       Norgaard: {
         nationality: "Norwegian",
         position: "Midfielder",
         age: 29,
-        photo: "https://www.bre"
+        photo: "https://www.arsenal.com/sites/default/files/styles/player_card_large/public/images/NORGAARD_Headshot_web_szdkungt.png?auto=webp&itok=z2xbVQkp"
       },
       Martinelli: {
         nationality: "Brazilian",
         position: "Winger",
         age: 23,
-        photo: "https://resources.premierle"
+        photo: "https://www.arsenal.com/sites/default/files/styles/player_card_extra_large/public/images/MARTINELLI_Headshot_web_l7r7lao5.png?auto=webp&itok=UgLVI3cc"
       },
       Trossard: {
         nationality: "Belgian",
         position: "Winger",
         age: 30,
-        photo: ""
+        photo: "https://www.arsenal.com/sites/default/files/styles/player_card_large/public/images/TROSSARD_Headshot_web_c75bgy21.png?auto=webp&itok=dCCTIY0U"
       },
       Nwaneri: {
         nationality: "British-Nigerian",
         position: "Midfielder",
         age: 17,
-        photo: "https://pbs.t"
+        photo: "https://www.arsenal.com/sites/default/files/styles/player_card_large/public/images/TROSSARD_Headshot_web_c75bgy21.png?auto=webp&itok=dCCTIY0U"
       },
       Madueke: {
         nationality: "British-Nigerian",
         position: "Winger",
         age: 23,
-        photo: ""
+        photo: "https://www.arsenal.com/sites/default/files/styles/player_card_large/public/images/MADUEKE_Headshot_web_tki7sn7x.png?auto=webp&itok=FFfmAyFu"
       }
     };
+
+    console.log(Object.keys(squadList));
+    
 
     checkBtn.addEventListener("click", () => {
       const nameInput = inputEl.value.trim().toLowerCase();
@@ -132,8 +135,13 @@ const inputEl = document.querySelector("input");
         key => key.toLowerCase() === nameInput
       );
 
+      console.log(matchedKey);
+      
+
       if (matchedKey) {
         const player = squadList[matchedKey];
+        console.log(player);
+        
         container.innerHTML = `
           <div class="player-card">
             <strong>${matchedKey}</strong><br>
