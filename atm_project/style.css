@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.main-wrapper {
+  justify-items: center;
+}
+
+h1 {
+  margin-top: 1em;
+}
+
+.cp-logo {
+  color: limegreen;
+  font-size: 50px;
+}
+.data {
+  color: white;
+  background-color: limegreen;
+  padding: 1em;
+  border-radius: 1em;
+  width: 35em;
+}
+
+.data h2 {
+  text-align: center;
+}
+
+.data input {
+  border: none;
+  border-radius: 5em;
+  width: 39em;
+  height: 5em;
+}
+
+::placeholder {
+  text-align: center;
+  color: limegreen;
+  font-style: italic;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.data button {
+  border: none;
+  width: 20em;
+  height: 5em;
+  border-radius: 5em;
+  color: limegreen;
+  font-size: 14px;
+  margin-left: 9em;
+}
+
+.display {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/052/321/519/non_2x/blank-phone-screen-for-mockup-and-design-projects-free-png.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 50em;
+}
