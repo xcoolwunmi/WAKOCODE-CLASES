@@ -19,103 +19,103 @@ const inputEl = document.querySelector("input");
         nationality: "Dutch",
         position: "Defender",
         age: 23,
-        photo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Jurrien_Timber_2022.jpg"
+        photo: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/TIMBER_Headshot_web_by8hrsl6.png?h=ad73a5fe&auto=webp&itok=Av7QXtLK"
       },
       Saliba: {
         nationality: "French",
         position: "Defender",
         age: 24,
-        photo: "https://resources.premierleague.com/premierleague/photos/players/250x250/p447201.png"
+        photo: "https://www.arsenal.com/sites/default/files/styles/desktop_16x9/public/images/SALIBA_Headshot_web_khl9z1vw.png?h=ad73a5fe&auto=webp&itok=Kd_KpCDt"
       },
       Gabriel: {
         nationality: "Brazilian",
         position: "Defender",
         age: 26,
-        photo: "https://resources.premierleague.com/premierleague/photos/players/250x250/p250162.png"
+        photo: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/MAGALHAES_Headshot_web_uhkgt913.png?h=ad73a5fe&auto=webp&itok=AbpWH11U"
       },
       Rice: {
         nationality: "English",
         position: "Midfielder",
         age: 26,
-        photo: "https://resources.premierleague.com/premierleague/photos/players/250x250/p209244.png"
+        photo: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/RICE_Headshot_web_ml5vq29g.png?h=ad73a5fe&auto=webp&itok=1rh28pbj"
       },
       Zubimendi: {
         nationality: "Spanish",
         position: "Midfielder",
         age: 25,
-        photo: "https://upload.wikimedia.org/wikipedia/commons/1/14/Mart%C3%ADn_Zubimendi.jpg"
+        photo: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/ZUBIMENDI_Headshot_web_blzez6pe.png?h=ad73a5fe&auto=webp&itok=h-GWUnrK"
       },
       Odegaard: {
         nationality: "Norwegian",
         position: "Midfielder",
         age: 25,
-        photo: "https://resources.premierleague.com/premierleague/photos/players/250x250/p181253.png"
+        photo: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/ODEGAARD_Headshot_web_z0tram3m.png?h=ad73a5fe&auto=webp&itok=Of2W460g"
       },
       Eze: {
         nationality: "British-Nigerian",
         position: "Midfielder",
         age: 26,
-        photo: "https://www.cpfc.co.uk/api/image/cpfc/players/2023-24/ezeg-1180.png"
+        photo: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/eze-headshot-2_oewup9di.png?h=6dff888f&auto=webp&itok=wavM774t"
       },
       Saka: {
         nationality: "British-Nigerian",
         position: "Winger",
         age: 23,
-        photo: "https://resources.premierleague.com/premierleague/photos/players/250x250/p223340.png"
+        photo: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/SAKA_Headshot_web_mxqw4vma.png?h=ad73a5fe&auto=webp&itok=sF_7_QGZ"
       },
       Gyokeres: {
         nationality: "Swedish",
         position: "Striker",
         age: 26,
-        photo: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Viktor_Gy%C3%B6keres_in_2023.jpg"
+        photo: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/GYOKERES_Headshot_web_ktz9gnvk.png?h=ad73a5fe&auto=webp&itok=WHckbM2w"
       },
       Kepa: {
         nationality: "Spanish",
         position: "Goalkeeper",
         age: 29,
-        photo: "https://upload.wikimedia.org/wikipedia/commons/5/54/Kepa_2019.jpg"
+        photo: "https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/KEPA_Headshot_web_u0z71ucm.png?h=ad73a5fe&auto=webp&itok=HvVO-Q1q"
       },
       White: {
         nationality: "English",
         position: "Defender",
         age: 27,
-        photo: "https://resources.premierleague.com/premierleague/photos/players/250x250/p184670.png"
+        photo: "https://resources.premierleague.com/premierlea"
       },
       Skelly: {
         nationality: "English",
         position: "Midfielder",
         age: 18,
-        photo: "https://www.evertonfc.com/api/image/cropandscale/1200x630/1287092"
+        photo: "https://www.evertonfc.co"
       },
       Norgaard: {
         nationality: "Norwegian",
         position: "Midfielder",
         age: 29,
-        photo: "https://www.brentfordfc.com/api/image/cropandscale/512x512/1291847"
+        photo: "https://www.bre"
       },
       Martinelli: {
         nationality: "Brazilian",
         position: "Winger",
         age: 23,
-        photo: "https://resources.premierleague.com/premierleague/photos/players/250x250/p450181.png"
+        photo: "https://resources.premierle"
       },
       Trossard: {
         nationality: "Belgian",
         position: "Winger",
         age: 30,
-        photo: "https://resources.premierleague.com/premierleague/photos/players/250x250/p177231.png"
+        photo: ""
       },
       Nwaneri: {
         nationality: "British-Nigerian",
         position: "Midfielder",
         age: 17,
-        photo: "https://pbs.twimg.com/media/F-8v9mFXEAAbFxT.jpg"
+        photo: "https://pbs.t"
       },
       Madueke: {
         nationality: "British-Nigerian",
         position: "Winger",
         age: 23,
-        photo: "https://upload.wikimedia.org/wikipedia/commons/3/39/Noni_Madueke_2021.jpg"
+        photo: ""
       }
     };
 
