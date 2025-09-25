@@ -1,32 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Online Banking System</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Correct Pay - Online Banking</title>
+
+    <!-- Google Fonts: Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="main-wrapper">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="atm-container">
         <h1><span class="cp-logo">Correct Pay</span> Banking Service</h1>
+
         <div class="data">
-            <h2>Enter your details</h2>
-            <br>
-            <input type="number" placeholder="Enter your account number">
-            <br><br>
-            <input type="password" placeholder="Enter your pin">
-            <br><br>
-            <button>Proceed</button>
+          <h2>Enter your details</h2>
+
+          <form id="login-form" novalidate>
+            <label for="acc-num" class="sr-only">Account Number</label>
+            <input
+              type="text"
+              id="acc-num"
+              inputmode="numeric"
+              pattern="\d{10}"
+              maxlength="10"
+              placeholder="Enter your 10-digit account number"
+              required
+            />
+
+            <label for="acc-pin" class="sr-only">PIN</label>
+            <input
+              type="password"
+              id="acc-pin"
+              placeholder="Enter your PIN"
+              minlength="4"
+              maxlength="6"
+              required
+            />
+
+            <button type="submit" id="btn">Login to Account</button>
+          </form>
         </div>
-        <div class="display">
-<h3>Welcome to <span class="cp-logo">Correct Pay</span> Banking Service</h3>
+        <div id="popup" class="popup">
+          <p id="popup-message"></p>
+          <button id="popup-close">OK</button>
         </div>
-    </div>
-</body>
-<script src="./script.js"></script>
+        <div id="popup" style="display:none; background: white; padding:20px; border-radius:10px; color:black;">
+</div>
+
+      </div>
+    </main>
+
+    <footer>© 2025 Correct Pay. All rights reserved.</footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
