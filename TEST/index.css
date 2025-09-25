@@ -1,40 +1,161 @@
+/* Base styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 2em;
+  background: url("https://cdn.wallpapersafari.com/89/63/EunhGo.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    body {
-      font-family:Poppins;
-      padding: 2em;
-      background-color: red;
-      justify-items: center;
-      color: white;
-    }
-    input {
-      padding: 0.5em;
-      width: 200px;
-      margin-right: 1em;
-    }
-    button {
-      padding: 0.5em 1em;
-    }
-    .container {
-      margin-top: 2em;
-    }
-    .player-card {
-    
-      margin-top: 1em;
-      border: 1px solid #ddd;
-      padding: 1em;
-      border-radius: 5px;
-      max-width: 300px;
-    }
-    .player-card img {
-      border-radius: 5px;
-      width: 100%;
-      max-width: 150px;
-      display: block;
-      margin-top: 0.5em;
-      justify-self: center;
-     
-    }
+  /* Overlay for readability */
+  position: relative;
+}
 
-    .player-card img:hover{
-      opacity: 0.9;
-    }
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: -1;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-bottom: 2em;
+}
+
+/* Search Section */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8em;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 0.7em 1em;
+  width: 220px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+input:focus {
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
+  border: 1px solid gold;
+}
+
+/* Button */
+button {
+  padding: 0.7em 1.4em;
+  border: none;
+  border-radius: 6px;
+  background: gold;
+  color: #a30000;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background: #ffda33;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+/* Container */
+.container {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+/* Player Card */
+.player-card {
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  border-radius: 10px;
+  padding: 1.2em;
+  max-width: 280px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.player-card h3 {
+  margin: 0.5em 0;
+  font-weight: 600;
+  color: #a30000;
+}
+
+.player-card img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 160px;
+  display: block;
+  margin: 0.5em auto;
+  transition: 0.3s;
+}
+
+.player-card img:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  padding: 1em;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  body {
+    padding: 1.2em;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
