@@ -1,11 +1,17 @@
+
 * {
-  padding: 0;
-  margin: 0;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
-  font-family: Poppins;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  background: #f7f8fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-image: url("https://plus.unsplash.com/premium_photo-1679865883308-850a9993b443?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJhaW4lMjBzdGF0aW9ufGVufDB8fDB8fHww");
   background-size: cover;
   background-position: center;
@@ -13,30 +19,48 @@ body {
 }
 
 .wrapper {
-  justify-self: center;
   text-align: center;
-  width: 20em;
-  height: 15em;
-  margin-top: 10em;
-  color: aliceblue;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 20px 0;
+  color: #333;
 }
 
 button {
-    width: 10em;
-    height: 3em;
-
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
 }
-.increasebtn {
-    background-color: green;
-    color: white;
-    border: none;
-    border-radius: 5em;
-}
- #increment {
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5em;
-   
- }
 
+#increment {
+  background: #28a745;
+  color: white;
+}
+
+#increment:hover {
+  background: #218838;
+}
+
+#savebtn {
+  background: #007bff;
+  color: white;
+}
+
+#savebtn:hover {
+  background: #0069d9;
+}
