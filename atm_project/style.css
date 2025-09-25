@@ -126,34 +126,38 @@ footer {
   color: #ccc;
 }
 
-/* Popup styles */
-.popup {
-  display: none; /* hidden by default */
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: white;
-  color: black;
-  padding: 2em;
-  border-radius: 1em;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-  z-index: 1000;
-  text-align: center;
-  width: 300px;
-}
 
-.popup button {
-  margin-top: 1em;
-  background: limegreen;
-  color: #fff;
+
+#popup {
+  display: none;
+  background:limegreen;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+}
+#popup button {
+  margin: 5px;
+  padding: 8px 12px;
   border: none;
+  background: #0066cc;
+  color: white;
   border-radius: 5px;
-  padding: 0.5em 1em;
   cursor: pointer;
 }
-
-.popup button:hover {
-  background: #228B22;
+#popup button:hover {
+  background: #004999;
 }
-
+#popup-close {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  background: red !important;
+  width: 1px;
+}
+#action-area {
+  margin-top: 1px;
+}
