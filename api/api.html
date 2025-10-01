@@ -3,36 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>API Basics</title>
-  <link rel="stylesheet" href="style.css"/> 
+  <title>TV Show Explorer</title>
+  <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-
   <header class="header">
     <h1>Popular TV Shows</h1>
   </header>
+  <section class="search-section">
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="Search shows..." 
+      aria-label="Search TV shows"
+    />
+    <button class="search-btn" id="searchBtn">Search</button>
+    <button class="clear-btn"id="clearSearch">Clear Search</button>
+  </section>
 
-
-  <nav class="pagination">
+  <nav class="pagination" aria-label="Pagination controls">
     <button id="Previous" class="btn">Previous</button>
     <span id="pageNumber" class="page-number">Page 1</span>
     <button id="nxtpage" class="btn">Next</button>
   </nav>
-
   <main>
-    <section class="shows-container container">
-     
+    <section class="shows-container container" aria-live="polite">
     </section>
   </main>
+<br>
+  <div id="popup" class="popup" style="display:none;" role="dialog" aria-modal="true">
+    <div class="popup-content">
+      <button id="closePopup" class="close-btn" aria-label="Close popup">❌</button>
+      <h2 id="popupTitle"></h2>
+      <img id="popupImg" alt="Show Image" />
+      <p id="popupDesc"></p>
+    </div>
+  </div>
 
- 
+  <!-- Footer -->
   <footer class="footer">
     <p>&copy; 2025 TV Show Explorer</p>
   </footer>
 
-  <script src="./api.js"></script>
+  <!-- Script -->
+  <script src="api.js"></script>
 </body>
 </html>
