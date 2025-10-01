@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>api basics </title>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>API Basics</title>
+  <link rel="stylesheet" href="style.css"/> 
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <h1>Api basics</h1>
-    <div>
-         <button id="nxtpage">Next</button>
-         <button id="Previous">Previous</button>
-    </div>
-   <br>
-    <div class="container"> </div>
 
-    <script src="./api.js"></script>
+  <header class="header">
+    <h1>Popular TV Shows</h1>
+  </header>
+
+
+  <nav class="pagination">
+    <button id="Previous" class="btn">Previous</button>
+    <span id="pageNumber" class="page-number">Page 1</span>
+    <button id="nxtpage" class="btn">Next</button>
+  </nav>
+
+  <main>
+    <section class="shows-container container">
+     
+    </section>
+  </main>
+
+ 
+  <footer class="footer">
+    <p>&copy; 2025 TV Show Explorer</p>
+  </footer>
+
+  <script src="./api.js"></script>
 </body>
 </html>
