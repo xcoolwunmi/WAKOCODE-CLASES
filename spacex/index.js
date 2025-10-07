@@ -1,12 +1,8 @@
 
-// ==========================
-//  Editable Launch Date
-// ==========================
+
 const launchDate = new Date("2025-12-20T14:30:00");
 
-// ==========================
-//  Countdown Logic
-// ==========================
+
 function updateCountdown() {
   const now = new Date();
   const diff = launchDate - now;
@@ -29,9 +25,6 @@ function updateCountdown() {
 setInterval(updateCountdown, 1000);
 updateCountdown();
 
-// ==========================
-//  Fade-Up Animation on Scroll
-// ==========================
 const animatedElements = document.querySelectorAll("[data-animate]");
 
 const observer = new IntersectionObserver(
@@ -48,9 +41,7 @@ const observer = new IntersectionObserver(
 
 animatedElements.forEach((el) => observer.observe(el));
 
-// ==========================
-//  Mobile Menu Toggle
-// ==========================
+
 const menuToggle = document.getElementById("menuToggle");
 const mobileMenu = document.getElementById("mobileMenu");
 
@@ -58,9 +49,7 @@ menuToggle.addEventListener("click", () => {
   mobileMenu.classList.toggle("hidden");
 });
 
-// ==========================
-//  Mobile Vehicles Dropdown
-// ==========================
+
 const mobileVehiclesBtn = document.getElementById("mobileVehiclesBtn");
 const mobileDropdown = document.getElementById("mobileDropdown");
 

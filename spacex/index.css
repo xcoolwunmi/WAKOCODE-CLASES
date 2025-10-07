@@ -1,0 +1,25 @@
+  
+    .black {
+      position: relative;
+      bottom: -130px;
+      width: 100%;
+      height: 130px;
+      background: linear-gradient(0deg, #000, #0000);
+    }
+
+    
+    .black-2 {
+      position: relative;
+        bottom: -1200px;
+      width: 100%;
+      height: 130px;
+      background: linear-gradient(0deg, #000, #0000);
+    }
+
+    .black-bottom {
+      position: relative;
+      top: 130px;
+      width: 100%;
+      height: 130px;
+      background: linear-gradient(180deg, #000000, #00000086, #0000);
+    }
