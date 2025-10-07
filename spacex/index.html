@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpaceX | Starship Flight Test</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body class="bg-black text-white relative">
+
+  <!-- Video Background -->
+  <video autoplay muted loop playsinline class="fixed top-0 left-0 w-full h-full object-cover -z-10">
+    <source src="./resource/Starship _ Second Flight Test.mp4" type="video/mp4">
+  </video>
+
+  <!-- Dark Overlay -->
+  <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 -z-10"></div>
+
+  <!-- Navbar -->
+  <nav class="fixed w-full flex items-center justify-between px-8 py-4 text-sm uppercase tracking-wide bg-transparent backdrop-blur-sm z-20">
+    <!-- Logo -->
+    <a href="#" class="flex items-center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/SpaceX-Logo.svg" alt="SpaceX Logo" class="h-6 md:h-8">
+    </a>
+
+    <!-- Menu -->
+    <ul id="menu" class="hidden md:flex space-x-6 font- arial text-lg">
+      <li><a href="#" class="hover:text-gray-300">Vehicles</a></li>
+      <li><a href="#" class="hover:text-gray-300">Launches</a></li>
+      <li><a href="#" class="hover:text-gray-300">Human Spaceflight</a></li>
+      <li><a href="#" class="hover:text-gray-300">Rideshare</a></li>
+      <li><a href="#" class="hover:text-gray-300">Starlink</a></li>
+      <li><a href="#" class="hover:text-gray-300">Starshield</a></li>
+      <li><a href="#" class="hover:text-gray-300">Company</a></li>
+      <li><a href="#" class="hover:text-gray-300">Shop</a></li>
+    </ul>
+
+    <!-- Countdown top-right -->
+    <div id="topCountdown" class="hidden md:block text-xs font-light tracking-widest">
+      UPCOMING LAUNCHES – <span id="navbarCountdown">T-00D 00:00:00</span>
+    </div>
+
+    <!-- Hamburger Menu -->
+    <button id="menuToggle" class="md:hidden focus:outline-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+           viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="fixed inset-0 bg-black bg-opacity-95 hidden flex-col items-center justify-center space-y-6 text-lg uppercase z-10">
+    <a href="#" class="hover:text-gray-400">Vehicles</a>
+    <a href="#" class="hover:text-gray-400">Launches</a>
+    <a href="#" class="hover:text-gray-400">Human Spaceflight</a>
+    <a href="#" class="hover:text-gray-400">Rideshare</a>
+    <a href="#" class="hover:text-gray-400">Starlink</a>
+    <a href="#" class="hover:text-gray-400">Starshield</a>
+    <a href="#" class="hover:text-gray-400">Company</a>
+    <a href="#" class="hover:text-gray-400">Shop</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col justify-end h-screen pb-24 px-10 md:px-24">
+    <div class="space-y-4">
+      <h3 id="mainCountdown" class="text-lg md:text-xl font-light tracking-widest">T-00D 00:00:00</h3>
+      <h1 class="text-3xl md:text-6xl font-bold tracking-tight leading-tight">STARSHIP’S ELEVENTH FLIGHT TEST</h1>
+      <a href="launch.html" class="inline-block mt-6 border border-white px-8 py-3 uppercase tracking-wider text-sm hover:bg-white hover:text-black transition">
+        Watch
+      </a>
+    </div>
+  </section>
+
+  <script src="./index.js"></script>
+</body>
+</html>
