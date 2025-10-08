@@ -23,3 +23,17 @@
       height: 130px;
       background: linear-gradient(180deg, #000000, #00000086, #0000);
     }
+
+    .first {
+      position: absolute;
+      margin-top: 30em;
+      margin-left: 7em;
+    }
+
+     .second {
+      position: absolute;
+      margin-left:80em;
+      margin-top: 15em;
+     }
+
+  
