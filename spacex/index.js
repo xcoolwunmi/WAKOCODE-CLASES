@@ -42,14 +42,6 @@ const observer = new IntersectionObserver(
 animatedElements.forEach((el) => observer.observe(el));
 
 
-const menuToggle = document.getElementById("menuToggle");
-const mobileMenu = document.getElementById("mobileMenu");
-
-menuToggle.addEventListener("click", () => {
-  mobileMenu.classList.toggle("hidden");
-});
-
-
 const mobileVehiclesBtn = document.getElementById("mobileVehiclesBtn");
 const mobileDropdown = document.getElementById("mobileDropdown");
 
@@ -57,3 +49,12 @@ mobileVehiclesBtn.addEventListener("click", () => {
   mobileDropdown.classList.toggle("hidden");
 });
 
+// Toggle Mobile Menu 
+const hamburger = document.getElementById("hamburger"); 
+const mobileMenu = document.getElementById("mobileMenu"); 
+hamburger.addEventListener("click", () => { 
+  mobileMenu.classList.toggle("hidden"); }); 
+// Optional: Close the menu when clicking a link 
+document.querySelectorAll("#mobileMenu a").forEach(link => { link.addEventListener("click", () => { 
+  mobileMenu.classList.add("hidden"); });
+ });
