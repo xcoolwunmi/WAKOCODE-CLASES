@@ -36,4 +36,11 @@
       margin-top: 15em;
      }
 
-  
+  @media (max-width: 768px) {
+  .first,
+  .second {
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    bottom: 20%;
+  }}
