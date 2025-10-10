@@ -1,0 +1,19 @@
+body{
+    background-image: url("https://wallpapers.com/images/hd/plain-white-background-xdwiksazlsuzkuhi.jpg");
+    background-size: cover;
+}
+
+.hero1{
+    margin-top: 5em;
+}
+.home{
+    width: 35em;
+}
+
+.first{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.lost-in-south{
+    font-family:"lost in the south", cursive;
+}

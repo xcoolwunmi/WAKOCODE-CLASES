@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fairway Style Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-gray-50">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-1/2 transform -translate-x-1/2 w-full max-w-7xl bg-white shadow-sm rounded-b-2xl z-50">
+      <div class="flex items-center justify-between px-6 py-3">
+        
+        <!-- Logo -->
+        <div class="flex items-center space-x-2">
+          <img src="https://cdn.prod.website-files.com/60b8fb458e70e017cee4b863/685d7df9759b22ce67d35f82_404e420d0cf7bb3a5fe79489f9ed3f1d_Fairway%20Home%20Mortgage_logo__Horizontal_Color.avif" alt="Logo" class="w-40">
+        </div>
+
+        <!-- Desktop Navigation -->
+        <ul class="hidden md:flex space-x-6 text-sm text-green-900 font-medium">
+          <li><a href="#" class="hover:text-green-700">About Us</a></li>
+          <li><a href="#" class="hover:text-green-700">Locations</a></li>
+          <li><a href="#" class="hover:text-green-700">Loan Products</a></li>
+          <li><a href="#" class="hover:text-green-700">Calculators</a></li>
+          <li><a href="#" class="hover:text-green-700">Videos</a></li>
+          <li><a href="#" class="hover:text-green-700">Careers</a></li>
+        </ul>
+
+        <!-- Right Section -->
+        <div class="flex items-center space-x-4">
+          <!-- CTA Button -->
+          <button class="bg-orange-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-orange-600 transition">
+            Get started
+          </button>
+
+          <!-- Search (hidden on mobile) -->
+          <div class="hidden md:flex items-center space-x-1 text-green-800 cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-4.35-4.35M10 18a8 8 0 100-16 8 8 0 000 16z" />
+            </svg>
+            <span class="text-xs font-medium">SEARCH</span>
+          </div>
+
+          <!-- Hamburger Menu -->
+          <button id="menu-btn" class="md:hidden flex items-center space-x-1 text-green-900 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <span class="text-sm font-medium">Menu</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu (hidden by default) -->
+      <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200 bg-white rounded-b-2xl shadow-md">
+        <ul class="flex flex-col space-y-4 py-4 text-sm text-green-900 font-medium text-center">
+          <li><a href="#" class="hover:text-green-700">About Us</a></li>
+          <li><a href="#" class="hover:text-green-700">Locations</a></li>
+          <li><a href="#" class="hover:text-green-700">Loan Products</a></li>
+          <li><a href="#" class="hover:text-green-700">Calculators</a></li>
+          <li><a href="#" class="hover:text-green-700">Videos</a></li>
+          <li><a href="#" class="hover:text-green-700">Careers</a></li>
+        </ul>
+      </div>
+    </nav>
+    </section>
+    <!-- End of Navbar -->
+
+      <!-- HERO SECTION -->
+    <section class=" hero1 flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-6 py-12 gap-10">
+
+      <!-- Left Content -->
+      <div class="md:w-1/2 space-y-6 text-center md:text-left">
+
+        <!-- Heading -->
+        <div>
+          <h1 class=" first text-5xl md:text-7xl font-extrabold leading-tight">
+            <span class="block">ALL ROADS</span>
+            <span class="text-green-600">LEAD</span>
+          </h1>
+
+          <!-- HOME box -->
+          <div class=" lost-in-south relative inline-block mt-4">
+            <div class="absolute top-2 left-2 bg-green-600 w-full h-full -z-10"></div>
+            <div class="bg-blue-700 px-6 py-2 inline-block">
+              <span class="text-white text-5xl font-extrabold italic tracking-wider">HOME</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paragraph -->
+        <p class="text-gray-700 leading-relaxed mt-6 max-w-md mx-auto md:mx-0">
+          At Fairway Home Mortgage our goal is to unlock the doors to homeownership for EVERYONE—your dream, our mission. 
+          A nationwide network of Loan Officers you can trust with the speed and service you should expect when finding a lender to serve your needs.
+        </p>
+
+        <!-- Button -->
+        <div>
+          <button class="mt-4 bg-gray-900 text-white font-semibold px-6 py-3 rounded-lg hover:bg-gray-800 transition">
+            Get Pre-Approved* Today
+          </button>
+          <p class="text-xs text-gray-500 mt-3 max-w-md mx-auto md:mx-0">
+            *Pre-approval is based on a preliminary review of credit information provided to Fairway Independent Mortgage Corporation, 
+            which has not been reviewed by underwriting. Final loan approval is subject to a full review of documentation including 
+            creditworthiness, assets, and satisfactory appraisal.
+          </p>
+        </div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="md:w-1/2 relative flex justify-center">
+        <div class="relative overflow-hidden rounded-lg">
+          <img
+            src="https://cdn.prod.website-files.com/60b8fb458e70e017cee4b863/681a1508ff5e23ddf0a394d7_hp-feature-img-family-sitting-on-couch.avif"
+            alt="Family at home"
+            class="rounded-lg shadow-md"
+          />
+          <!-- Green border effect -->
+          <div class="absolute top-0 right-0 bottom-0 left-0 border-4 border-green-600 translate-x-3 translate-y-3"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End of HERO SECTION -->
+        <!-- Top Info Cards -->
+    <section class="py-10 px-6 flex flex-col md:flex-row gap-6 justify-center items-center">
+      <!-- Card 1 -->
+<div class="flex bg-white shadow-md rounded-lg overflow-hidden w-full md:w-1/3 border-2 border-transparent hover:border-black transition-all duration-300">
+  <img
+    src="https://cdn.prod.website-files.com/60b8fb458e70e017cee4b863/6864223c3cfce3a421cf09a9_Gemini_Generated_Image_kmx44lkmx44lkmx4%20Large.avif"
+    alt="Map"
+    class="w-1/3 object-cover"
+  />
+  <div class="p-4 flex flex-col justify-center">
+    <h2 class="text-lg font-bold">
+      FIND A <span class="italic font-extrabold">LOCATION</span>
+    </h2>
+    <p class="text-sm mt-2 text-gray-600">
+      Browse our locations by state or find a Loan Officer using the lookup tool.
+    </p>
+  </div>
+</div>
+
+<!-- Card 2 -->
+<div class="flex bg-white shadow-md rounded-lg overflow-hidden w-full md:w-1/3 border-2 border-transparent hover:border-black transition-all duration-300">
+  <img
+    src="https://cdn.prod.website-files.com/60b8fb458e70e017cee4b863/68642de9239c917bfeea0119_Gemini_Generated_Image_mortgage-calculators.avif"
+    alt="Calculator"
+    class="w-1/3 object-cover"
+  />
+  <div class="p-4 flex flex-col justify-center">
+    <h2 class="text-lg font-bold">
+      MORTGAGE <span class="italic font-extrabold">CALCULATORS</span>
+    </h2>
+    <p class="text-sm mt-2 text-gray-600">
+      Check out our selection of calculators to estimate your possible options.
+    </p>
+  </div>
+</div>
+
+<!-- Card 3 -->
+<div class="flex bg-white shadow-md rounded-lg overflow-hidden w-full md:w-1/3 border-2 border-transparent hover:border-black transition-all duration-300">
+  <img
+    src="https://cdn.prod.website-files.com/60b8fb458e70e017cee4b863/68642f3672817f5ac6e71d00_Gemini_Generated_Image_mortgage-statement.avif"
+    alt="Payment"
+    class="w-1/3 object-cover"
+  />
+  <div class="p-4 flex flex-col justify-center">
+    <h2 class="text-lg font-bold">
+      PAYMENT <span class="italic font-extrabold">INFORMATION</span>
+    </h2>
+    <p class="text-sm mt-2 text-gray-600">
+      Get more information on where to make a payment and Fairway servicing FAQ’s.
+    </p>
+  </div>
+</div>
+    </section>
+
+    <!-- Main Section -->
+    <section class="bg-green-600 py-16">
+      <div
+        class="max-w-6xl mx-auto bg-white rounded-2xl flex flex-col md:flex-row overflow-hidden shadow-xl"
+      >
+        <!-- Image -->
+        <div class="md:w-1/2">
+          <img
+            src="https://cdn.prod.website-files.com/60b8fb458e70e017cee4b863/681bbf8d8068bd9a45f1783f_ink-splash-with-house.avif"
+            alt="House"
+            class="home absolute"
+          />
+        </div>
+
+        <!-- Text -->
+        <div class="p-10 md:w-1/2 flex flex-col justify-center">
+          <p class="text-sm font-semibold text-green-700 uppercase tracking-widest">
+            Start the process here
+          </p>
+          <h1 class="text-3xl md:text-4xl font-extrabold mt-3 leading-tight">
+            EXPERIENCE A QUICK, HASSLE-FREE MORTGAGE PRE-APPROVAL PROCESS.
+          </h1>
+          <p class="mt-5 text-gray-600 leading-relaxed">
+            Discover how our innovative mortgage solutions can empower your home buying
+            journey. Our streamlined pre-approval process ensures you get the financing
+            you need without the wait. Start your journey to homeownership today with
+            confidence and ease.
+          </p>
+          <a
+            href="#"
+            class="mt-6 inline-block text-green-700 font-semibold hover:underline"
+          >
+            Find A Loan Officer
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 px-6 md:px-20 bg-white">
+      <div
+        class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12"
+      >
+        <!-- Left Text Section -->
+        <div class="md:w-2/3 space-y-6">
+          <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+            <span class="text-green-600">YOUR HOME AWAITS</span>,
+            EXPLORE FAIRWAY'S LOAN OPTIONS.
+          </h1>
+
+          <p class="text-gray-700 leading-relaxed max-w-2xl">
+            At Fairway Home Mortgage, we offer a variety of mortgage loan options tailored
+            to meet your needs. Whether you're looking for a conventional, FHA,
+            adjustable-rate, or fixed-rate mortgage, we have the perfect solution for you.
+          </p>
+
+          <button
+            class="bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition"
+          >
+            View our products
+          </button>
+        </div>
+
+        <!-- Right Image Card -->
+        <div
+          class="md:w-1/3 border border-black rounded-md overflow-hidden shadow-sm"
+        >
+        <div class="overflow-hidden rounded-lg">
+  <img
+    src="https://cdn.prod.website-files.com/60b8fb458e70e017cee4b863/6839b4b17f9136429f5b94ec_home-sweet-home-doormat-in-front-of-door.avif"
+    alt="Home Sweet Home Mat"
+    class="w-full h-60 object-cover transform transition-transform duration-500 hover:scale-110"
+  />
+</div>
+
+          <div class="p-5">
+            <h2 class="text-2xl font-extrabold uppercase">The Loan Process</h2>
+            <p class="text-green-700 text-sm font-semibold mt-1 tracking-widest">
+              Learn how Fairway gets you from start to closing
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
