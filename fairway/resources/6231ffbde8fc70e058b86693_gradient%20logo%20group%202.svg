@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="980.596" height="1193.295" viewBox="0 0 980.596 1193.295">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00973a"/>
+      <stop offset="1" stop-color="#00973a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_397" data-name="Group 397" transform="translate(0.002 -1409.353)">
+    <path id="Path_1271" data-name="Path 1271" d="M19245.814,119.577l957.523,1193.295V119.577Z" transform="translate(20203.336 2722.224) rotate(180)" opacity="0.254" fill="url(#linear-gradient)"/>
+    <g id="FIMC_Logo_1_Primary_Icon_Color_Vector" transform="translate(0 1586.417)" opacity="0.294">
+      <path id="Path_1224" data-name="Path 1224" d="M149.258,357.927,465.495,157.159a46.46,46.46,0,0,1,49.731,0L832.034,358.181a46.651,46.651,0,0,1,21.626,39.41v50.176c-521.7-61.545-726.378,269.617-726.378,269.617V398.1a47.636,47.636,0,0,1,21.976-40.173M980.467,497.054V328.2a47.191,47.191,0,0,0-21.944-39.887L516.147,7.456a47.953,47.953,0,0,0-51.351,0L22.23,288.442A46.778,46.778,0,0,0,.445,327.884L0,968.8a46.746,46.746,0,0,0,46.746,46.778h74.978C160.881,907.2,376.48,404.355,980.594,497.054" transform="translate(0 0)" fill="#fff"/>
+      <path id="Path_1225" data-name="Path 1225" d="M645.864,537.052l-336.879-.381a543.574,543.574,0,0,1,44.46-104.608c49.827-85.3,150.75-198.926,340.467-225.189V489.1a47.953,47.953,0,0,1-47.985,47.953M73.38,665.827H774.162A46.778,46.778,0,0,0,820.94,619.08V165.59S260.429,76.258,73.38,665.827" transform="translate(159.653 349.756)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
