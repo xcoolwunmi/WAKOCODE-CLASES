@@ -15,20 +15,20 @@ body{
     width: 35em;
 }
 .lead { 
-  -webkit-text-stroke-width: 1px; /* Adjust the width of the stroke */
-  -webkit-text-stroke-color:rgb(19, 156, 19); /* Set the color of the stroke */
-  color: transparent; /* Makes the text fill transparent */
-  font-size: 130px;
-  font-weight: 500;
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color:rgb(19, 156, 19); 
+  color: transparent; 
+  font-size: 120px;
+  font-weight: 550;
   font-family:Bebas Neue;
 }
 .home {
-    font-size: 8em;
+    font-size: 10em;
 }
 
 .first{
     font-family: 'Bebas Neue';
-    font-size: 8em;
+    font-size: 7em;
 }
 
 .lost-in-south{
@@ -43,4 +43,45 @@ body{
     margin-top: 20px;
     font-family: 'Bebas Neue';
     font-size: 3em;
+}
+
+h3 {
+    font-family: 'Bebas Neue';
+    font-size: 4em;
+}
+
+.Fairway{
+    color: rgb(19, 156, 19);
+}
+
+.couple{
+    width: 30em;
+    height: 29em;
+}
+
+h2{
+    font-family: 'Bebas Neue';
+    font-weight: 600;
+}   
+
+.mortgage {
+    font-size: 70px;
+    font-family:'Lost in South', sans-serif ;
+    color: white;
+    line-height: 100px;
+}
+
+.culture{
+    font-family: 'Lost in South', sans-serif ;
+    color:black;
+    font-weight: 200;
+    font-size: 15em;
+    line-height:200px ;
+}
+
+.Commitment{
+    font-family: 'Bebas Neue';
+    font-size: 4em;
+    font-weight: 100;
+    color: black;
 }
