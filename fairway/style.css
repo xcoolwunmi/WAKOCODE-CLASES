@@ -1,19 +1,46 @@
+
 body{
     background-image: url("https://wallpapers.com/images/hd/plain-white-background-xdwiksazlsuzkuhi.jpg");
-    background-size: cover;
+    background-size: cover; 
+    font-family: Montserrat;
+}
+.left-content{
+    width: 60%;
 }
 
 .hero1{
     margin-top: 5em;
 }
-.home{
+.pic{
     width: 35em;
+}
+.lead { 
+  -webkit-text-stroke-width: 1px; /* Adjust the width of the stroke */
+  -webkit-text-stroke-color:rgb(19, 156, 19); /* Set the color of the stroke */
+  color: transparent; /* Makes the text fill transparent */
+  font-size: 130px;
+  font-weight: 500;
+  font-family:Bebas Neue;
+}
+.home {
+    font-size: 8em;
 }
 
 .first{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
+    font-size: 8em;
 }
 
 .lost-in-south{
-    font-family:"lost in the south", cursive;
+    font-family: 'Lost in South', sans-serif;
+   
+}
+
+.perks{
+    font-family:'Lost in South', sans-serif ;
+}
+.the-perks{
+    margin-top: 20px;
+    font-family: 'Bebas Neue';
+    font-size: 3em;
 }
