@@ -85,3 +85,89 @@ h2{
     font-weight: 100;
     color: black;
 }
+
+.div-height {
+    height: 470px;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth scroll behavior */
+.reviews {
+  scroll-behavior: smooth;
+}
+
+/* Center review content */
+.review-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Hover animation */
+.review-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.review-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.14);
+}
+
+/* Arrow buttons */
+.arrow-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.28);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 9999px;
+  cursor: pointer;
+  z-index: 20;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-btn:hover {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* left/right positioning */
+.arrow-btn.left-4 { left: 1rem; }
+.arrow-btn.right-4 { right: 1rem; }
+
+/* make the arrow icons slightly larger on bigger screens */
+@media (min-width: 768px) {
+  .arrow-btn svg { width: 28px; height: 28px; }
+}
+
+/* Card sizing helpers (you are using Tailwind classes for the rest) */
+.review-card {
+  background-color: white;
+  color: #1f2937;
+  padding: 1.25rem; /* 20px */
+  border-radius: 0.75rem; /* 12px */
+  min-width: 280px;
+  max-width: 320px;
+  flex-shrink: 0;
+}
+.date-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  background-color: #15803d;
+  color: white;
+  border-radius: 9999px;
+}
