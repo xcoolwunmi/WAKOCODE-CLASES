@@ -96,7 +96,7 @@ h2{
 }
 .scrollbar-hide {
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  scrollbar-width: none; 
 }
 
 /* Smooth scroll behavior */

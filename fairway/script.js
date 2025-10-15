@@ -46,7 +46,7 @@
     const card = document.createElement("div");
     card.className = "review-card";
     card.innerHTML = `
-      <div class="text-green-600 text-4xl font-bold">${review.rating}</div>
+      <div class="text-green-600 text-4xl font-bold border-5 border-3 border-green-600 ">${review.rating}</div>
       <p class="text-green-600 mb-4">${stars}</p>
       <p class="text-sm mb-4">${review.text}</p>
       <p class="font-semibold">${review.name}</p>
