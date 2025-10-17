@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CBT Test Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body >
+    <div class="flex items-center justify-center min-h-screen relative">
+<!-- Soft background pattern -->
+    <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+
+    <!-- Main Container -->
+    <div class="relative bg-white/80 backdrop-blur-xl shadow-2xl rounded-3xl w-full max-w-3xl p-8 md:p-10 border border-blue-100">
+      
+      <!-- Header Section -->
+      <div class="flex flex-col md:flex-row justify-between items-center border-b border-blue-200 pb-5 mb-6">
+        
+        <!-- Exam Info -->
+        <div class="text-center md:text-left bg-gradient-to-r from-blue-50 to-white rounded-xl p-4 shadow-sm border border-blue-100 w-full md:w-2/3">
+          <h2 class="text-2xl font-bold text-blue-800 mb-3">Test Details</h2>
+
+          <div class="space-y-2">
+            <div class="flex items-center justify-center md:justify-start gap-2 text-gray-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+              </svg>
+              <span class="font-semibold text-blue-800">Class:</span>
+              <span class="text-gray-700 font-medium">Rudimental</span>
+            </div>
+
+            <div class="flex items-center justify-center md:justify-start gap-2 text-gray-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
+              </svg>
+              <span class="font-semibold text-blue-800">Subject:</span>
+              <span class="text-gray-700 font-medium">Mathematics</span>
+            </div>
+
+            <div class="flex items-center justify-center md:justify-start gap-2 text-gray-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 15c2.828 0 5.432.878 7.879 2.804M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span class="font-semibold text-blue-800">Teacher:</span>
+              <span class="text-gray-700 font-medium">Mr. Solomon</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timer -->
+        <div class="mt-4 md:mt-0 bg-gradient-to-r from-blue-600 to-blue-500 text-white px-8 py-4 rounded-xl shadow-md text-center animate-pulse-slow w-full md:w-auto">
+          <h3 class="text-sm font-medium uppercase tracking-wider">Time Left</h3>
+          <p id="timer" class="text-3xl font-extrabold">10:00</p>
+        </div>
+      </div>
+
+      <!-- Question Section -->
+      <div class="mb-6 text-center md:text-left">
+        <h3 id="question" class="text-xl md:text-2xl font-semibold text-gray-800 leading-relaxed">
+         What is the sum of <span class="text-blue-600 font-bold">8 + 12</span>?
+        </h3>
+      </div>
+
+      <!-- Options Section -->
+      <div id="options" class="space-y-4 mb-8">
+        <!-- Each Option -->
+        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-2xl bg-white/80 hover:bg-blue-50 hover:border-blue-400 cursor-pointer transition-all duration-300 shadow-sm hover:shadow-lg">
+          <input type="radio" name="answer" value="A" class="accent-blue-600 w-5 h-5" />
+          <span class="text-gray-800 font-medium">A. 18</span>
+        </label>
+
+        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-2xl bg-white/80 hover:bg-blue-50 hover:border-blue-400 cursor-pointer transition-all duration-300 shadow-sm hover:shadow-lg">
+          <input type="radio" name="answer" value="B" class="accent-blue-600 w-5 h-5" />
+          <span class="text-gray-800 font-medium">B. 20</span>
+        </label>
+
+        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-2xl bg-white/80 hover:bg-blue-50 hover:border-blue-400 cursor-pointer transition-all duration-300 shadow-sm hover:shadow-lg">
+          <input type="radio" name="answer" value="C" class="accent-blue-600 w-5 h-5" />
+          <span class="text-gray-800 font-medium">C. 22</span>
+        </label>
+
+        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-2xl bg-white/80 hover:bg-blue-50 hover:border-blue-400 cursor-pointer transition-all duration-300 shadow-sm hover:shadow-lg">
+          <input type="radio" name="answer" value="D" class="accent-blue-600 w-5 h-5" />
+          <span class="text-gray-800 font-medium">D. 25</span>
+        </label>
+
+        <label class="flex items-center gap-3 p-4 border border-gray-200 rounded-2xl bg-white/80 hover:bg-blue-50 hover:border-blue-400 cursor-pointer transition-all duration-300 shadow-sm hover:shadow-lg">
+          <input type="radio" name="answer" value="E" class="accent-blue-600 w-5 h-5" />
+          <span class="text-gray-800 font-medium">E. 30</span>
+        </label>
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="flex justify-between items-center">
+        <button id="prevBtn" class="bg-gray-200 text-gray-700 font-semibold px-6 py-2 rounded-lg hover:bg-gray-300 hover:shadow transition-all duration-300">
+          ⬅️ Previous
+        </button>
+
+        <div class="flex gap-3">
+          <button id="nextBtn" class="bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 hover:shadow transition-all duration-300">
+            Next ➡️
+          </button>
+
+          <button id="submitBtn" class="bg-green-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-green-700 hover:shadow transition-all duration-300">
+            Submit ✅
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

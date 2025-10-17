@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CBT App | Test Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="flex items-center justify-center min-h-screen relative  from-blue-50 to-blue-100">
+    <!-- Background pattern -->
+    <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+
+    <!-- Test Details Card -->
+    <div
+      class="relative z-10 bg-white/90 backdrop-blur-md p-8 rounded-2xl shadow-2xl w-full max-w-md transform transition duration-300 hover:scale-105 border border-blue-100"
+    >
+      <!-- Logo -->
+      <div class="flex justify-center mb-6">
+        <img
+          src="./assest/logo.jfif"
+          alt="CBT Logo"
+          class="w-20 h-20 rounded-full shadow-lg border-2 border-blue-600"
+        />
+      </div>
+
+      <!-- Header -->
+      <h2
+        class="text-3xl font-extrabold text-center text-blue-800 mb-8 drop-shadow-sm"
+      >
+         Test Details
+      </h2>
+
+      <!-- Test Info Section -->
+      <div class="space-y-4 text-gray-700 text-lg">
+        <div
+          class="flex justify-between items-center bg-gradient-to-r from-blue-50 to-white p-3 rounded-xl border border-blue-100 shadow-sm"
+        >
+          <span class="font-semibold text-blue-800">Class:</span>
+          <span class="font-medium text-gray-800">SS2</span>
+        </div>
+
+        <div
+          class="flex justify-between items-center bg-gradient-to-r from-blue-50 to-white p-3 rounded-xl border border-blue-100 shadow-sm"
+        >
+          <span class="font-semibold text-blue-800">Subject:</span>
+          <span class="font-medium text-gray-800">Mathematics</span>
+        </div>
+
+        <div
+          class="flex justify-between items-center bg-gradient-to-r from-blue-50 to-white p-3 rounded-xl border border-blue-100 shadow-sm"
+        >
+          <span class="font-semibold text-blue-800">Teacher:</span>
+          <span class="font-medium text-gray-800">Mr. Johnson</span>
+        </div>
+
+        <div
+          class="flex justify-between items-center bg-gradient-to-r from-blue-50 to-white p-3 rounded-xl border border-blue-100 shadow-sm"
+        >
+          <span class="font-semibold text-blue-800">Total Questions:</span>
+          <span class="font-medium text-gray-800">20</span>
+        </div>
+
+        <div
+          class="flex justify-between items-center bg-gradient-to-r from-blue-50 to-white p-3 rounded-xl border border-blue-100 shadow-sm"
+        >
+          <span class="font-semibold text-blue-800">Total Marks:</span>
+          <span class="font-medium text-gray-800">100</span>
+        </div>
+      </div>
+
+      <!-- Start Button -->
+      <button
+        id="start-test"
+        class="mt-8 w-full bg-gradient-to-r from-blue-600 to-blue-800 text-white py-3 rounded-lg font-semibold shadow-lg hover:from-blue-700 hover:to-blue-900 transition-all duration-300"
+      >
+        Start Test 
+      </button>
+
+      <!-- Footer -->
+      <p class="text-center text-sm text-gray-600 mt-6">
+        © 2025 FCIS IT TEAM. All rights reserved.
+      </p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
